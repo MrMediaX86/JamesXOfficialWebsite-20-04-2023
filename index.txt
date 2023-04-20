@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JAMESX</title>
+
+      <style>
+
+        .sampleText{
+        font-family: Gotham;
+        font-size: 12pt;
+        colour: chocolate;
+
+         }
+
+
+      </style>
+  
+  </head>
+  <body>
+    
+    <img src="IMG_6723.jpg" alt="Mike and sims" />
+
+    <li class="sampleText">The Devil Made an Image <a href="https://www.youtube.com/watch?v=HiO1DXHcIf8">Trailer</a></li>
+    <li>The Mysterious Diversity of the Same <a href="https://www.youtube.com/watch?v=hAlNnGcAXpo">Trailer</a></li>
+
+  </body>
+</html>

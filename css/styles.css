@@ -1,0 +1,200 @@
+          
+.header-main{
+     width: 100%;
+     height: 60px;
+     display: flex; 
+     justify-content: space-between;
+          }
+
+a {
+    cursor: pointer
+}
+
+p {
+    font-family: helvetica;
+    font-size: 14px;
+}
+
+h2 {
+    font-family: Garamond;    
+    font-size: 2rem;
+}
+
+h4 {
+    font-family: Garamond;    
+
+}
+
+body:after {
+    position: absolute;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    z-index: -1    
+    content: url(../img/Linkedin.png) url(../img/WhatsApp.png);
+}
+ 
+.header-main-logo{
+     width: fit-content;
+     height: 100%;
+     padding-left: 60px;
+     display: flex; 
+
+}
+
+.header-main-logo img{
+     height: 40px;
+     align-self: center;
+}
+
+.header-main-nav{    
+     width: fit-content;
+     height: 100%;
+}
+
+.header-main-nav ul { 
+    margin-left: 30px;
+}
+    
+.header-main-nav ul li { 
+    display: inline;
+    float: left
+
+}
+    
+.header-main-nav ul li a { 
+    padding: 0 10px;
+    font-family: helvetica;
+    line-height: 60px;
+    color: #000;
+    display: block;
+    height: 100%;  
+}
+
+.header-main-nav ul li a:hover { 
+    color: #fe670c;
+}
+
+.header-main-sm{
+     width: fit-content;
+     height: 100%;
+     padding-right: 60px;
+     display: flex;
+     align-items: center;
+     column-gap: 10px;
+}
+
+.header-main-sm-lk {
+     width: 20px;
+     height: 20px;
+     background-image: url(../img/Linkedin.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.header-main-sm-lk:hover {
+     background-image: url(../img/Linkedin%20white.png);
+}
+
+.header-main-sm-wa {
+     width: 20px;
+     height: 20px;
+     background-image: url(../img/WhatsApp.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.header-main-sm-wa:hover {
+     background-image: url(../img/WhatsApp%20white.png);
+}
+
+.JamesXMain {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.container {
+    border: 10px;
+    max-width: 800px;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#newsletter{
+    border: 10px solid grey;
+    background-color: beige;
+
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32vh;
+}
+
+form {
+    width: 90%;
+    max-width: 600px;    
+}
+
+.input-group{
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding:  10px;
+    outline: 0;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 15px;
+}
+
+input[type="text"] {
+  border: 1px solid #ccc;
+  padding: 5px;
+  background-color: white;
+  font-family: helvetica;
+    }
+
+label {
+  display: block;
+  font-family: helvetica; 
+}
+
+button[type="submit"] {
+  background-color: grey;
+  border: none;
+  color: white;
+  padding: 10px 72px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: helvetica; 
+}
+
+.email-input {
+  border-color: #d3d3d3;
+  padding: 10px;
+  width: 93%;
+  font-size: 16px;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+footer {
+    border: 10px solid grey;
+    height: 50px;
+    max-width: 798px;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
