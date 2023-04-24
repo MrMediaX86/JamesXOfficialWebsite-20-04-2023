@@ -116,7 +116,7 @@ body:after {
 }
 
 .container {
-    padding: 15px;
+    border: 10px;
     max-width: 800px;
     margin: auto;
     width: 100%;
