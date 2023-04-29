@@ -197,3 +197,8 @@ footer {
     width: 100%;
     text-align: center;
 }
+
+.video-container {
+    display: flex;
+    justify-content: center;
+}
