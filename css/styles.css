@@ -39,7 +39,8 @@ body:after {
      height: 100%;
      padding-left: 60px;
      display: flex;
-     align-items: center; 
+     align-items: center;
+     cursor: pointer;
 }
 
 .header-main-logo img{
@@ -50,6 +51,7 @@ body:after {
 .header-main-nav{    
      width: fit-content;
      height: 100%;
+     cursor: pointer;
 }
 
 .header-main-nav ul { 
