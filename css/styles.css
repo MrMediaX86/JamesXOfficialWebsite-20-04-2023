@@ -38,8 +38,8 @@ body:after {
      width: fit-content;
      height: 100%;
      padding-left: 60px;
-     display: flex; 
-
+     display: flex;
+     align-items: center; 
 }
 
 .header-main-logo img{
